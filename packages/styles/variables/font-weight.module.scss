@@ -1,0 +1,11 @@
+$thin: 200;
+$regular: 400;
+$semibold: 600;
+$bold: 700;
+
+:export {
+  thin: $thin;
+  regular: $regular;
+  semibold: $semibold;
+  bold: $bold;
+}

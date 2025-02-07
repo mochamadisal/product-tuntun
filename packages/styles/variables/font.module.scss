@@ -1,0 +1,21 @@
+$body1: 16px;
+$body2: 14px;
+$body3: 12px;
+$body4: 10px;
+$h1: 64px;
+$h2: 48px;
+$h3: 36px;
+$h4: 24px;
+$h5: 18px;
+
+:export {
+  body1: $body1;
+  body2: $body2;
+  body3: $body3;
+  body4: $body4;
+  h1: $h1;
+  h2: $h2;
+  h3: $h3;
+  h4: $h4;
+  h5: $h5;
+}
