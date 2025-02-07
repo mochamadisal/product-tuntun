@@ -1,0 +1,316 @@
+{
+    "product": [
+        {
+            "id": 1,
+            "name": "Botol Air EcoBreeze",
+            "description": "Botol air multifungsi berkapasitas 750 ml yang terbuat dari bahan Tritan bebas BPA, memastikan minuman tetap segar dan aman dikonsumsi. Dilengkapi dengan penutup anti-bocor dan pegangan silikon yang nyaman untuk dibawa saat beraktivitas, seperti berolahraga atau bepergian. Desain elegan dan ramah lingkungan ini juga tahan terhadap suhu tinggi dan dapat digunakan untuk minuman panas maupun dingin.",
+            "price": 90700,
+            "discount_price": 50000,
+            "images": [
+                {
+                    "image_url": "https://picsum.photos/id/691/5000/3333"
+                },
+                {
+                    "image_url": "https://picsum.photos/id/30/5000/3333"
+                }
+            ],
+            "variants": []
+        },
+        {
+            "id": 2,
+            "name": "Earbuds Nirkabel TechNova Plus",
+            "description": "Nikmati pengalaman audio yang mendalam dengan TechNova Plus. Earbuds ini dilengkapi dengan teknologi peredam bising aktif (ANC) dan konektivitas Bluetooth 5.2 yang stabil. Dengan baterai tahan hingga 8 jam pemakaian terus-menerus dan tambahan 24 jam dari casing pengisi daya, TechNova Plus adalah pilihan sempurna untuk mendengarkan musik, podcast, atau melakukan panggilan telepon tanpa gangguan.",
+            "price": 130000,
+            "discount_price": 120000,
+            "images": [
+                {
+                    "image_url": "https://picsum.photos/id/39/5000/3333"
+                }
+            ],
+            "variants": [
+                {
+                    "code": "grey",
+                    "label": "Abu",
+                    "images": [
+                        {
+                            "image_url": "https://picsum.photos/id/39/5000/3333"
+                        }
+                    ]
+                },
+                {
+                    "code": "black",
+                    "label": "Hitam",
+                    "images": [
+                        {
+                            "image_url": "https://picsum.photos/id/145/5000/3333"
+                        }
+                    ]
+                },
+                {
+                    "code": "dustypink",
+                    "label": "Dusty Pink",
+                    "images": [
+                        {
+                            "image_url": "https://picsum.photos/id/160/5000/3333"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "VeloxPro Fitness Tracker 2.0",
+            "description": "Pelacak kebugaran canggih yang membantu Anda memantau kesehatan dan aktivitas sehari-hari. Fitur meliputi penghitungan langkah, pemantauan detak jantung 24/7, pelacakan tidur otomatis, dan pengingat untuk bergerak. Layar AMOLED berwarna yang responsif memberikan informasi real-time dengan jelas, sementara daya tahan baterainya mencapai 10 hari penggunaan.",
+            "price": 275000,
+            "discount_price": 0,
+            "images": [
+                {
+                    "image_url": "https://picsum.photos/id/169/5000/3333"
+                }
+            ],
+            "variants": [
+                {
+                    "code": "bluecaramel",
+                    "label": "Blue Caramel",
+                    "images": [
+                        {
+                            "image_url": "https://picsum.photos/id/169/5000/3333"
+                        }
+                    ]
+                },
+                {
+                    "code": "goldviolet",
+                    "label": "Gold Violet",
+                    "images": [
+                        {
+                            "image_url": "https://picsum.photos/id/166/5000/3333"
+                        }
+                    ]
+                },
+                {
+                    "code": "orientalnude",
+                    "label": "Oriental Nude",
+                    "images": [
+                        {
+                            "image_url": "https://picsum.photos/id/175/5000/3333"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Lampu Aromaterapi ZenGlow Sense",
+            "description": "ZenGlow Sense adalah perpaduan sempurna antara diffuser essential oil dan lampu ambient dengan tujuh pilihan warna yang dapat diubah sesuai suasana hati Anda. Tangki air berkapasitas 500 ml memungkinkan penyebaran aroma hingga 8 jam tanpa henti. Ideal untuk menciptakan suasana relaksasi di rumah, kantor, atau ruang meditasi Anda.",
+            "price": 90700,
+            "discount_price": 50000,
+            "images": [
+                {
+                    "image_url": "https://picsum.photos/id/158/5000/3333"
+                }
+            ],
+            "variants": []
+        },
+        {
+            "id": 5,
+            "name": "Set Pisau Dapur ChefMate Precision",
+            "description": "Set pisau dapur premium dengan 5 pisau stainless steel berteknologi anti-karat, dirancang untuk memotong dengan presisi tinggi. Pegangan ergonomisnya memberikan kenyamanan maksimal saat digunakan dalam waktu lama. Set ini dilengkapi dengan blok kayu elegan yang membuat dapur Anda terlihat profesional dan rapi.",
+            "price": 130000,
+            "discount_price": 120000,
+            "images": [
+                {
+                    "image_url": "https://picsum.photos/id/284/5000/3333"
+                }
+            ],
+            "variants": []
+        },
+        {
+            "id": 6,
+            "name": "Dompet Pintar LuxeLeather Guard",
+            "description": "Dompet pintar yang dirancang untuk keamanan dan kemudahan penggunaan. Dilengkapi dengan teknologi RFID-blocking untuk melindungi data kartu Anda dari pencurian digital. Fitur pelacak Bluetooth bawaan terhubung dengan aplikasi smartphone, sehingga Anda dapat dengan mudah menemukan dompet yang hilang. Terbuat dari kulit asli dengan desain minimalis nan elegan.",
+            "price": 275000,
+            "discount_price": 0,
+            "images": [
+                {
+                    "image_url": "https://picsum.photos/id/336/5000/3333"
+                }
+            ],
+            "variants": []
+        },
+        {
+            "id": 7,
+            "name": "Penyaring Udara HomePure FreshGuard",
+            "description": "HomePure FreshGuard dilengkapi dengan filter HEPA generasi terbaru yang mampu menyaring hingga 99,97% partikel debu, alergen, dan polusi udara. Alat ini juga memiliki filter karbon aktif untuk menghilangkan bau tidak sedap serta mode malam yang beroperasi dengan suara senyap. Cocok untuk ruangan berukuran hingga 50 meter persegi.",
+            "price": 275000,
+            "discount_price": 0,
+            "images": [
+                {
+                    "image_url": "https://picsum.photos/id/401/5000/3333"
+                }
+            ],
+            "variants": [
+                {
+                    "code": "bluecaramel",
+                    "label": "Blue Caramel",
+                    "images": [
+                        {
+                            "image_url": "https://picsum.photos/id/401/5000/3333"
+                        }
+                    ]
+                },
+                {
+                    "code": "goldviolet",
+                    "label": "Gold Violet",
+                    "images": [
+                        {
+                            "image_url": "https://picsum.photos/id/409/5000/3333"
+                        }
+                    ]
+                },
+                {
+                    "code": "orientalnude",
+                    "label": "Oriental Nude",
+                    "images": [
+                        {
+                            "image_url": "https://picsum.photos/id/444/5000/3333"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "PowerMax Portable Charger 20.000mAh Ultra",
+            "description": "Power bank berkapasitas besar yang dapat mengisi daya hingga 4 perangkat sekaligus. Dilengkapi dengan teknologi Power Delivery (PD) dan Quick Charge 3.0 untuk pengisian cepat. Desainnya ringkas dengan bodi tahan benturan serta indikator LED untuk menunjukkan sisa daya.",
+            "price": 90700,
+            "discount_price": 50000,
+            "images": [
+                {
+                    "image_url": "https://picsum.photos/id/445/5000/3333"
+                }
+            ],
+            "variants": []
+        },
+        {
+            "id": 9,
+            "name": "Bantal Memory Foam SilkDream Supreme",
+            "description": "Bantal berkualitas premium dengan inti memory foam yang mengikuti bentuk kepala dan leher Anda, memberikan dukungan optimal untuk tidur nyenyak. Dilengkapi dengan sarung bantal hypoallergenic yang dapat dilepas dan dicuci, serta teknologi pendingin yang menjaga suhu tetap nyaman sepanjang malam.",
+            "price": 130000,
+            "discount_price": 120000,
+            "images": [
+                {
+                    "image_url": "https://picsum.photos/id/486/5000/3333"
+                }
+            ],
+            "variants": []
+        },
+        {
+            "id": 10,
+            "name": "Ransel Anti-Maling UrbanVibe SecurePack",
+            "description": "Ransel inovatif dengan fitur keamanan tingkat tinggi seperti ritsleting tersembunyi, kantong rahasia, dan bahan tahan potong. Port USB eksternal memungkinkan pengisian daya perangkat saat bepergian. Desain ergonomis dan bantalan punggung empuk memberikan kenyamanan maksimal meskipun digunakan sepanjang hari.",
+            "price": 275000,
+            "discount_price": 0,
+            "images": [
+                {
+                    "image_url": "https://picsum.photos/id/619/5000/3333"
+                }
+            ],
+            "variants": []
+        }
+    ],
+    "recomendation-product": [
+        {
+            "id": 2,
+            "name": "Earbuds Nirkabel TechNova Plus",
+            "description": "Nikmati pengalaman audio yang mendalam dengan TechNova Plus. Earbuds ini dilengkapi dengan teknologi peredam bising aktif (ANC) dan konektivitas Bluetooth 5.2 yang stabil. Dengan baterai tahan hingga 8 jam pemakaian terus-menerus dan tambahan 24 jam dari casing pengisi daya, TechNova Plus adalah pilihan sempurna untuk mendengarkan musik, podcast, atau melakukan panggilan telepon tanpa gangguan.",
+            "price": 130000,
+            "discount_price": 120000,
+            "images": [
+                {
+                    "image_url": "https://picsum.photos/id/39/5000/3333"
+                }
+            ],
+            "variants": [
+                {
+                    "code": "grey",
+                    "label": "Abu",
+                    "images": [
+                        {
+                            "image_url": "https://picsum.photos/id/39/5000/3333"
+                        }
+                    ]
+                },
+                {
+                    "code": "black",
+                    "label": "Hitam",
+                    "images": [
+                        {
+                            "image_url": "https://picsum.photos/id/145/5000/3333"
+                        }
+                    ]
+                },
+                {
+                    "code": "dustypink",
+                    "label": "Dusty Pink",
+                    "images": [
+                        {
+                            "image_url": "https://picsum.photos/id/160/5000/3333"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Lampu Aromaterapi ZenGlow Sense",
+            "description": "ZenGlow Sense adalah perpaduan sempurna antara diffuser essential oil dan lampu ambient dengan tujuh pilihan warna yang dapat diubah sesuai suasana hati Anda. Tangki air berkapasitas 500 ml memungkinkan penyebaran aroma hingga 8 jam tanpa henti. Ideal untuk menciptakan suasana relaksasi di rumah, kantor, atau ruang meditasi Anda.",
+            "price": 90700,
+            "discount_price": 50000,
+            "images": [
+                {
+                    "image_url": "https://picsum.photos/id/158/5000/3333"
+                }
+            ],
+            "variants": []
+        },
+        {
+            "id": 6,
+            "name": "Dompet Pintar LuxeLeather Guard",
+            "description": "Dompet pintar yang dirancang untuk keamanan dan kemudahan penggunaan. Dilengkapi dengan teknologi RFID-blocking untuk melindungi data kartu Anda dari pencurian digital. Fitur pelacak Bluetooth bawaan terhubung dengan aplikasi smartphone, sehingga Anda dapat dengan mudah menemukan dompet yang hilang. Terbuat dari kulit asli dengan desain minimalis nan elegan.",
+            "price": 275000,
+            "discount_price": 0,
+            "images": [
+                {
+                    "image_url": "https://picsum.photos/id/336/5000/3333"
+                }
+            ],
+            "variants": []
+        },
+        {
+            "id": 8,
+            "name": "PowerMax Portable Charger 20.000mAh Ultra",
+            "description": "Power bank berkapasitas besar yang dapat mengisi daya hingga 4 perangkat sekaligus. Dilengkapi dengan teknologi Power Delivery (PD) dan Quick Charge 3.0 untuk pengisian cepat. Desainnya ringkas dengan bodi tahan benturan serta indikator LED untuk menunjukkan sisa daya.",
+            "price": 90700,
+            "discount_price": 50000,
+            "images": [
+                {
+                    "image_url": "https://picsum.photos/id/445/5000/3333"
+                }
+            ],
+            "variants": []
+        },
+        {
+            "id": 10,
+            "name": "Ransel Anti-Maling UrbanVibe SecurePack",
+            "description": "Ransel inovatif dengan fitur keamanan tingkat tinggi seperti ritsleting tersembunyi, kantong rahasia, dan bahan tahan potong. Port USB eksternal memungkinkan pengisian daya perangkat saat bepergian. Desain ergonomis dan bantalan punggung empuk memberikan kenyamanan maksimal meskipun digunakan sepanjang hari.",
+            "price": 275000,
+            "discount_price": 0,
+            "images": [
+                {
+                    "image_url": "https://picsum.photos/id/619/5000/3333"
+                }
+            ],
+            "variants": []
+        }
+    ]
+}
