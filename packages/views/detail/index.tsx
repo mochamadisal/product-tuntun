@@ -59,24 +59,26 @@ const ProductDetail = ({ productId }: { productId: string }) => {
                   )}
                 </div>
               </div>
-              <div className={styles.productDetail__content}>
-                <h4>Pilih Varian :</h4>
-                <div className={styles.productDetail__varianList}>
-                  {product.variants?.map((varian, index) => (
-                    <Button
-                      key={`variant-${index + 1}`}
-                      label={varian.label}
-                      variant={
-                        varian.code === selectedVariant
-                          ? 'primary'
-                          : 'primaryOutline'
-                      }
-                      size="small"
-                      onClick={() => handleChangeVariant(varian.code)}
-                    />
-                  ))}
+              {product && product.variants && product?.variants?.length > 0 && (
+                <div className={styles.productDetail__content}>
+                  <h4>Pilih Varian :</h4>
+                  <div className={styles.productDetail__varianList}>
+                    {product.variants?.map((varian, index) => (
+                      <Button
+                        key={`variant-${index + 1}`}
+                        label={varian.label}
+                        variant={
+                          varian.code === selectedVariant
+                            ? 'primary'
+                            : 'primaryOutline'
+                        }
+                        size="small"
+                        onClick={() => handleChangeVariant(varian.code)}
+                      />
+                    ))}
+                  </div>
                 </div>
-              </div>
+              )}
               <div className={styles.productDetail__content}>
                 <p className={styles.productDetail__description}>
                   {product.description}
