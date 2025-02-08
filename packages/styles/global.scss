@@ -32,10 +32,6 @@ a {
   height: 100vh;
   overflow: auto;
 
-  &.use-navigation {
-    padding-bottom: 60px;
-  }
-
   &.use-header {
     padding-top: 74px;
   }
@@ -45,6 +41,10 @@ a {
   display: flex;
   flex-wrap: wrap;
   padding: 4px;
+  background-color: $white-color;
+  padding: 18px;
+  border-radius: 5px;
+  width: 100%;
 }
 
 .d-flex {

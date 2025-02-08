@@ -1,12 +1,12 @@
+/* eslint-disable @next/next/no-img-element */
 import fontSizeModule from '@/styles/variables/font.module.scss'
 import colorModule from '@/styles/variables/colors.module.scss'
 import styles from '@/styles/components/products.module.scss'
 import { ProductCardProps } from './types'
 import { formatCurrency } from 'packages/utils/textFormatter'
 import Button from '@/components/button'
-import { FiSearch } from 'react-icons/fi'
+import { FiEye } from 'react-icons/fi'
 import { useRouter } from 'next/navigation'
-import paths from 'packages/utils/constants/paths'
 
 const ProductCard = ({ product }: ProductCardProps) => {
   const router = useRouter()
@@ -62,7 +62,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
       </div>
       <div className={styles.productsCard__overlay}>
         <Button variant="icon" onClick={handleOpenDetail}>
-          <FiSearch
+          <FiEye
             title="Lihat Detail"
             style={{
               color: colorModule.whiteColor,

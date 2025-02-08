@@ -10,9 +10,10 @@
 .productsWidget {
   display: flex;
   flex-wrap: wrap;
-  background-color: white;
+  background-color: $white-color;
   padding: 18px;
   border-radius: 5px;
+  width: 100%;
 }
 
 .productsNotfound {
@@ -90,7 +91,6 @@
   &__discountWrapper {
     position: relative;
     z-index: 2;
-    border-top-right-radius: 32px;
     border-bottom-right-radius: 32px;
     padding: 8px;
     display: flex;

@@ -14,13 +14,13 @@ const Homepage = () => {
       {isLoadingDataProducts ? (
         <Skeleton
           wrapper={ProductItem}
-          count={6}
-          height={410}
+          count={5}
+          height={350}
           containerClassName="skeleton-wrapper"
         />
       ) : (
         <div className={styles.productsRow}>
-          {dataProducts ? (
+          {dataProducts && dataProducts?.length > 0 ? (
             <div className={styles.productsWidget}>
               {dataProducts?.map((product, index) => (
                 <ProductItem key={`product-item-${index + 1}`}>

@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 'use client'
 
 import { AxiosError } from 'axios'
@@ -10,7 +11,7 @@ import {
 import { ToastContainer, toast } from 'react-toastify'
 import Header from '../header'
 import { Fragment, useMemo } from 'react'
-import Navigation from '../navigation'
+import Footer from '../footer';
 import { usePathname } from 'next/navigation'
 import { pagesRule } from './constants'
 import 'react-toastify/dist/ReactToastify.css'
@@ -70,9 +71,9 @@ const LayoutWrapper = ({ children }: { children: React.ReactNode }) => {
             } ${getPageRule.useNavigation ? 'use-navigation' : ''}`}
           >
             {children}
+            <Footer />
           </div>
         </div>
-        {getPageRule.useNavigation && <Navigation />}
       </QueryClientProvider>
     </Fragment>
   )
