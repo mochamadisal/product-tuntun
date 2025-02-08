@@ -7,6 +7,7 @@ import { formatCurrency } from 'packages/utils/textFormatter'
 import Button from '@/components/button'
 import { FiEye } from 'react-icons/fi'
 import { useRouter } from 'next/navigation'
+import paths from 'packages/utils/constants/paths'
 
 const ProductCard = ({ product }: ProductCardProps) => {
   const router = useRouter()
@@ -16,7 +17,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
   )
 
   const handleOpenDetail = () => {
-    router.push('/')
+    router.push(`${paths.productDetail}/${product.id}`)
   }
 
   return (

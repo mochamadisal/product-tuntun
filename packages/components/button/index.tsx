@@ -1,8 +1,8 @@
-import { forwardRef, useMemo } from 'react'
-
-import styles from '@/styles/components/button.module.scss'
-import weightModule from '@/styles/variables/font-weight.module.scss'
-import type { ButtonProps } from './types'
+/* eslint-disable react/display-name */
+import { forwardRef, useMemo } from 'react';
+import styles from '@/styles/components/button.module.scss';
+import weightModule from '@/styles/variables/font-weight.module.scss';
+import type { ButtonProps } from './types';
 
 const Button = forwardRef<HTMLButtonElement, ButtonProps>(
   (
@@ -10,22 +10,22 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
       children,
       label,
       prefix,
-      variant,
-      weight,
+      variant = 'primary',     // Default value for variant
+      weight = 'semibold',     // Default value for weight
       id,
-      size,
-      isFullWidth,
+      size = 'medium',         // Default value for size
+      type = 'button',         // Default value for type
+      isFullWidth = false,     // Default value for isFullWidth
       ...otherProps
     },
     ref
   ) => {
-    const fontWeight = useMemo(() => {
-      return weight || 'regular'
-    }, [weight])
+    const fontWeight = useMemo(() => weight || 'regular', [weight]);
 
     return (
       <button
         ref={ref}
+        type={type}
         className={`${styles.styledButton} ${styles[`size-${size}`]} ${
           styles[`variant-${variant}`]
         } ${isFullWidth ? styles.isFullWidth : ''}`}
@@ -38,15 +38,8 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         )}
         {!prefix && children}
       </button>
-    )
+    );
   }
-)
+);
 
-Button.defaultProps = {
-  size: 'medium',
-  type: 'button',
-  variant: 'primary',
-  weight: 'semibold',
-}
-
-export default Button
+export default Button;

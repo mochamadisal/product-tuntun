@@ -14,7 +14,7 @@ const Homepage = () => {
       {isLoadingDataProducts ? (
         <Skeleton
           wrapper={ProductItem}
-          count={5}
+          count={10}
           height={350}
           containerClassName="skeleton-wrapper"
         />

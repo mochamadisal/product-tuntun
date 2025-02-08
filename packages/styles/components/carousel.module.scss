@@ -1,0 +1,50 @@
+@import "../mixins/media";
+
+.carousel {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease;
+    height: 100%;
+  }
+
+  .slide {
+    flex: 0 0 100%;
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+
+    &.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    img {
+      width: auto;
+      height: 100%;
+      object-fit: contain;
+      @include respond-to(mobile) {
+        width: 100%;
+      }
+    }
+  }
+
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+
+    &:first-child {
+      left: 8px;
+    }
+
+    &:last-child {
+      right: 8px;
+    }
+  }
+}
