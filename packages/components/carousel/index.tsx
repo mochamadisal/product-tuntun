@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import styles from '@/styles/components/carousel.module.scss'
 import { CarouselProps } from './types'
 import Button from '../button'
@@ -34,7 +35,7 @@ const Carousel = ({ images, currentImage, setCurrentImage }: CarouselProps) => {
               index === currentImage ? styles.active : ''
             }`}
           >
-            <img src={image.image_url} alt={`Slide ${index}`} />
+            <img src={image.image_url} alt={`Slide ${index}`} loading="lazy" />
           </div>
         ))}
       </div>

@@ -31,6 +31,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
             src={product.images?.[0].image_url}
             className={styles.productsCard__imageCover}
             alt={product.name}
+            loading="lazy"
           />
           {product.discount_price > 0 && (
             <div className={styles.productsCard__discountWrapper}>
